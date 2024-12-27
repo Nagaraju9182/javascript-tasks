@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #E3F2FD;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.download-btn {
+    outline: none;
+    border: none;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    padding: 16px 25px;
+    border-radius: 6px;
+    align-items: center;
+    white-space: nowrap;
+    background: #2f2f2f;
+    transition: all 0.2s ease;
+}
+
+.download-btn:hover {
+    background: #414141;
+}
+
+.download-btn.timer {
+    color: #000;
+    background: none;
+    transition: none;
+    font-size: 1.6rem;
+    pointer-events: none;
+}
+
+.download-btn.timer b {
+    color: #2f2f2f;
+    padding: 0 8px;
+}
+
+.download-btn .icon {
+    font-size: 2rem;
+}
+
+.download-btn .text {
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+   
